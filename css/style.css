@@ -1,0 +1,83 @@
+.nav-top {
+    background-color:cadetblue !important;
+}
+
+.logo{
+    width: 3%;
+    border-radius: 100%;
+}
+
+.nav-menu {
+    color: white !important;
+}
+
+.img-car {
+    max-height: 600px !important;
+}
+
+.divisao {
+    background-color: cadetblue !important;
+    text-align: center;
+    color: white;
+    padding: 2em;
+}
+
+.sec-pacotes {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 0.5% !important;
+}
+
+.sec-pacotes p {
+    text-align: justify !important;
+}
+
+.card {
+    margin-left: 1em !important;
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+    padding: 1em !important;
+}
+
+footer {
+    text-align: center !important;
+    background-color: cadetblue;
+    color: white !important;
+}
+
+.contato-msg {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0.5em;
+}
+
+.links {
+    text-align: center;
+    padding: 1em;
+    color: blueviolet;
+}
+.map{
+    padding: 1em;
+}
+
+.rodape {
+    padding: 2em;
+}
+
+@media (min-width: 200px) and (max-width:1200px){
+    .map{
+        width: 300px !important;
+        height: 285px !important;
+    }
+
+    .links{
+        padding-top: 3em;
+    }
+    .map{
+        padding-top: 3em;
+    }
+}
+
+
+

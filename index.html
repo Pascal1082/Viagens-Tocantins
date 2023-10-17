@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tocantins</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script rel="stylesheet" href="js/script.js"></script>
+
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <nav class="navbar navbar-expand-sm nav-top fixed-top">
+            <div class="container-fluid">
+                <img class="navbar-brand logo" src="img/logo.jpeg"></img>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav-menu" href="#demo">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-menu" href="#pacotes">Pacotes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-menu" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Pesquisar">
+                        <button class="btn btn-primary" type="button">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!--Principal-->
+    <main>
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Dunas.jpg" alt="Dunas do Japalão" class="d-block w-100 img-car">
+                    <div class="carousel-caption">
+                        <h3>Desvende o Jalapão</h3>
+                        <p>Um oásis escondido no coração do Brasil, onde aventura e natureza se encontram.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Ilha-do-Bananal.jpg" alt="Ilha do Bananal" class="d-block w-100 img-car">
+                    <div class="carousel-caption">
+                        <h3>Explore a Ilha do Bananal</h3>
+                        <p>Onde a maior ilha fluvial do mundo se transforma em um paraíso selvagem para explorar.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/lagoa-do-japones.jpg" alt="Lagoa do Japonês" class="d-block w-100 img-car">
+                    <div class="carousel-caption">
+                        <h3>Visite a Lagoa do Japonês</h3>
+                        <p>A serenidade nas águas cristalinas da Lagoa do Japonês, um refúgio natural de tirar o fôlego
+                            que espera por você.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/natividade.jpg" alt="Natividade" class="d-block w-100 img-car">
+                    <div class="carousel-caption">
+                        <h3>Desbrave a cidade de Natividade</h3>
+                        <p>Onde o passado e o presente se entrelaçam, revelando uma cidade encantadora repleta de
+                            história e cultura.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Palmas.webp" alt="Palmas Tocantins" class="d-block w-100 img-car">
+                    <div class="carousel-caption">
+                        <h3>Conheça Palmas</h3>
+                        <p>O paraíso do cerrado, onde o sol brilha o ano todo e a hospitalidade te recebe de braços abertos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!--Divisão-->
+        <div class="container-fluid divisao">
+            <h2>Conheça o Tocantins</h2>
+        </div>
+
+        <!--Pacotes-->
+        <section class="sec-pacotes row" id="pacotes">
+            <div class="card col-sm-3" style="width:300px">
+                <img class="card-img-top" src="img/Pacotes/jalapão.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Jalapão</h4>
+                    <p class="card-text">O Jalapão, paraíso escondido no Brasil, encanta com dunas douradas, cachoeiras cristalinas e cenários únicos. Descubra essa joia natural!</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card col-sm-3" style="width:300px">
+                <img class="card-img-top" src="img/Pacotes/Ilha do Bananal.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Ilha do Bananal</h4>
+                    <p class="card-text">A ilha do Bananal, maior ilha fluvial do mundo, guarda segredos da Amazônia brasileira. Fauna exuberante, tribos indígenas e paisagens deslumbrantes esperam por você!</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card col-sm-3" style="width:300px">
+                <img class="card-img-top" src="img/Pacotes/Palmas.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Palmas</h4>
+                    <p class="card-text">Palmas, capital do Tocantins, surpreende com arquitetura futurista, praias de água doce e gastronomia típica. Explore o coração do Brasil e sua cultura única!</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card col-sm-3" style="width:300px">
+                <img class="card-img-top" src="img/Pacotes/Natividade.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Natividade</h4>
+                    <p class="card-text">Natividade, joia histórica do Brasil, encanta com suas casas coloniais, festas tradicionais e riqueza cultural. Explore o passado e a autenticidade desse tesouro escondido!</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!--Divisão-->
+        <div class="container-fluid divisao">
+            <h2>Fale conosco</h2>
+        </div>
+
+        <!--Contato-->
+        <section id="contato" class="container-fluid row">
+            <div class="col-6">
+                <form action="/action_page.php">
+                    <div class="mb-3 mt-3 contato-msg">
+                        <label for="nome" class="form-label">Nome: </label>
+                        <input type="nome" class="form-control" id="nome" placeholder="Nome" name="nome">
+                    </div>
+                    <div class="mb-3 contato-msg">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
+                    </div>
+                    <div class="contato-msg">
+                        <label for="comment">Comentário</label>
+                        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary contato-msg contato-msg">Enviar</button>
+                </form>
+            </div>
+
+            <div class="col-6">
+                <div class="row links">
+                    <div class="col-6">
+                        <h6>WhatsApp</h6>
+                        <a href="https://contate.me/leandrocontato" target="_blank"><img src="img/whatsap.jpeg"></a>
+                    </div>
+
+                    <div class="col-6">
+                        <h6>Instagram</h6>
+                        <a href="https://www.instagram.com/leandro_pascal1082/" target="_blank"><img src="img/instagram.jpeg"></a>
+                    </div>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.064053538204!2d-48.30035002404027!3d-10.336759212425418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x933b3179fc2fa813%3A0x9057cf5146f05ace!2sSenac%20Taquaralto!5e0!3m2!1spt-BR!2sbr!4v1697580997277!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+                
+            </div>
+
+        </section>
+        <!--Divisão-->
+        <div class="container-fluid" style="padding: 1em; background-color: white;">
+
+        </div>
+    </main>
+
+    <!--Rodapé-->
+    <footer class="rodape">
+        <h5>&copy; 2023 TocantinsTur. Todos os direitos reservados a Leandro Viana da Costa</h5>
+
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</html>
